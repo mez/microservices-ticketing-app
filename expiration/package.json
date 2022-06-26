@@ -1,0 +1,23 @@
+{
+  "name": "expiration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --poll src/index.ts",
+    "test": "jest --watchAll --no-cache"
+  },
+  "dependencies": {
+    "@anonytickets/common": "^1.0.4",
+    "@types/bull": "^3.15.8",
+    "bull": "^4.8.3",
+    "node-nats-streaming": "^0.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "27.5.1",
+    "ts-jest": "^27.1.4"
+  }
+}
